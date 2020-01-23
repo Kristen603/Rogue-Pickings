@@ -1,0 +1,120 @@
+
+/**BASE STYLES**/
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin: 0 80px;
+    width: 1200px;
+}
+
+#about {
+    height: 150px;
+}
+
+#menu, #reviews, #contact {
+    height: 225px;
+}
+
+/**TEXT STYLING**/
+
+.capital {
+    color: #77a466;
+}
+
+.cursive {
+    color: #77a466;
+    font-family: 'Cedarville Cursive', cursive;
+    text-transform: lowercase;
+}
+
+/**GRID**/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/**HEADER**/
+
+header{
+    background-size: cover;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+   
+header h1{
+    float: left;
+    margin: 30px 0;
+    font-size: 30px;
+    }
+    
+
+nav {
+    float: right;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px;
+}
+
+nav ul li a {
+    color: #77a466;
+    text-decoration: none;
+}
+
+/**BODY**/
+
+img {
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+}
+
+h2 {
+    color: #77a466;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#menu li{
+    color: #77a466;
+    list-style-type: none;
+    margin-left: -40px;
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: normal;
+    padding-right: 30px;
+    text-align: left;
+}
+
+/**FOOTER**/
+footer {
+    text-align: center;
+    clear: both;
+
+}
+
